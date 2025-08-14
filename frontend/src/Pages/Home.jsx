@@ -5,6 +5,7 @@ import Qualities from '../components/qualities'
 import Menu from '../components/Menu'
 import Team from '../components/Team'
 import WhoAreWe from '../components/WhoAreWe'
+import Reservation from '../components/reservation'
 
 const Home = () => {
   return (
@@ -12,8 +13,10 @@ const Home = () => {
       <HeroSection/>
       <About/>
       <Qualities/>
+       <Team/>
+       <Reservation/>
       <Menu/>
-      <Team/>
+     
       <WhoAreWe/>
     </div>
   )

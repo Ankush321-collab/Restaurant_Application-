@@ -23,6 +23,7 @@ function App() {
       <Route path="/about" element={<About/>}/>
       <Route path="/menu" element={<Menu/>}/>
 
+
     </Routes>
   
     <Toaster /> {/* ✅ now it works */}
